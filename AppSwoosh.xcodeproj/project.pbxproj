@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		F24997FA245EE956002B1BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24997F9245EE956002B1BD6 /* AppDelegate.swift */; };
 		F24997FC245EE956002B1BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24997FB245EE956002B1BD6 /* SceneDelegate.swift */; };
-		F24997FE245EE956002B1BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24997FD245EE956002B1BD6 /* ViewController.swift */; };
+		F24997FE245EE956002B1BD6 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24997FD245EE956002B1BD6 /* WelcomeVC.swift */; };
 		F2499801245EE956002B1BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24997FF245EE956002B1BD6 /* Main.storyboard */; };
 		F2499803245EE957002B1BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2499802245EE957002B1BD6 /* Assets.xcassets */; };
 		F2499806245EE957002B1BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2499804245EE957002B1BD6 /* LaunchScreen.storyboard */; };
+		F2499811245EF11F002B1BD6 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2499810245EF11F002B1BD6 /* BorderButton.swift */; };
+		F2499813245F1576002B1BD6 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2499812245F1576002B1BD6 /* LeagueVC.swift */; };
+		F2499815245F1588002B1BD6 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2499814245F1588002B1BD6 /* SkillVC.swift */; };
+		F2499817245F1AD4002B1BD6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2499816245F1AD4002B1BD6 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F24997F6245EE956002B1BD6 /* AppSwoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSwoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24997F9245EE956002B1BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F24997FB245EE956002B1BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F24997FD245EE956002B1BD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F24997FD245EE956002B1BD6 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		F2499800245EE956002B1BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2499802245EE957002B1BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2499805245EE957002B1BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2499807245EE957002B1BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2499810245EF11F002B1BD6 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		F2499812245F1576002B1BD6 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		F2499814245F1588002B1BD6 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		F2499816245F1AD4002B1BD6 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		F24997F8245EE956002B1BD6 /* AppSwoosh */ = {
 			isa = PBXGroup;
 			children = (
+				F249980F245EED52002B1BD6 /* View */,
+				F249980E245EED4A002B1BD6 /* Model */,
+				F249980D245EED39002B1BD6 /* Controller */,
 				F24997F9245EE956002B1BD6 /* AppDelegate.swift */,
 				F24997FB245EE956002B1BD6 /* SceneDelegate.swift */,
-				F24997FD245EE956002B1BD6 /* ViewController.swift */,
 				F24997FF245EE956002B1BD6 /* Main.storyboard */,
 				F2499802245EE957002B1BD6 /* Assets.xcassets */,
 				F2499804245EE957002B1BD6 /* LaunchScreen.storyboard */,
 				F2499807245EE957002B1BD6 /* Info.plist */,
 			);
 			path = AppSwoosh;
+			sourceTree = "<group>";
+		};
+		F249980D245EED39002B1BD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F24997FD245EE956002B1BD6 /* WelcomeVC.swift */,
+				F2499812245F1576002B1BD6 /* LeagueVC.swift */,
+				F2499814245F1588002B1BD6 /* SkillVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F249980E245EED4A002B1BD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2499816245F1AD4002B1BD6 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F249980F245EED52002B1BD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2499810245EF11F002B1BD6 /* BorderButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24997FE245EE956002B1BD6 /* ViewController.swift in Sources */,
+				F2499813245F1576002B1BD6 /* LeagueVC.swift in Sources */,
+				F24997FE245EE956002B1BD6 /* WelcomeVC.swift in Sources */,
 				F24997FA245EE956002B1BD6 /* AppDelegate.swift in Sources */,
 				F24997FC245EE956002B1BD6 /* SceneDelegate.swift in Sources */,
+				F2499817245F1AD4002B1BD6 /* Player.swift in Sources */,
+				F2499815245F1588002B1BD6 /* SkillVC.swift in Sources */,
+				F2499811245EF11F002B1BD6 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
